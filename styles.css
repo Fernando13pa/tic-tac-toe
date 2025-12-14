@@ -1,0 +1,70 @@
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* Tabellenzellen */
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+/* ÄUSSERE RÄNDER ENTFERNEN */
+
+/* oben */
+tr:first-child td {
+    border-top: none;
+}
+
+/* unten */
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* links */
+td:first-child {
+    border-left: none;
+}
+
+/* rechts */
+td:last-child {
+    border-right: none;
+}
